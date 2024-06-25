@@ -1,0 +1,28 @@
+nav {
+  padding-block: 2rem;
+  background-color: var(--surface-color);
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+  list-style: none;
+}
+
+nav li a {
+  padding: 0.4rem;
+}
+
+nav li:last-child img {
+  width: 4rem;
+  height: 4rem;
+}
