@@ -2,8 +2,9 @@
 
 <p>Esse projeto consiste na criação de uma página de perfil de viagens, onde é mostrado o nome do usuário com algumas informações de quantos países visitou, e também as fotos que tirou dos países.</p>
 
+<h2>Desenvolvido com:</h2>
+
 <ul>
-  Desenvolvido com
   <li>HTML</li>
   <li>CSS</li>
 </ul>
