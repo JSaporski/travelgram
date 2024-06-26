@@ -5,8 +5,8 @@
 <h2>Desenvolvido com:</h2>
 
 <ul>
-  <li>HTML</li>
-  <li>CSS</li>
+  <li>HTML;</li>
+  <li>CSS;</li>
 </ul>
 
 <p>O projeto também está responsivo para todas as telas.</p>
