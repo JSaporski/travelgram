@@ -7,7 +7,6 @@
   --shape-transparency: hsla(0, 0%, 100%, 0.56);
   --text-color-primary: hsl(0, 0%, 19%);
   --text-color-secondary: hsl(0, 0%, 42%);
-
   --font-family: 'Poppins', sans-serif;
   --heading: 700 3.2rem/125% var(--font-family);
   --paragraph-lg: 400 1.6rem/150% var(--font-family);
