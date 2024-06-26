@@ -1,0 +1,22 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 2.4rem;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+footer p,
+footer li a {
+  font: var(--paragraph-md);
+}
+
+footer li a {
+  padding: 0.4rem;
+}

@@ -1,5 +1,6 @@
 nav {
   padding-block: 2rem;
+  line-height: 0;
   background-color: var(--surface-color);
 }
 
@@ -15,10 +16,9 @@ nav ul {
   justify-content: center;
   align-items: center;
   gap: 1.6rem;
-  list-style: none;
 }
 
-nav li a {
+nav ul li a {
   padding: 0.4rem;
 }
 

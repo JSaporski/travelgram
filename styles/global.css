@@ -24,7 +24,6 @@
 body {
   font-family: var(--font-family);
   font-size: 1.6rem;
-  line-height: 0;
   color: var(--text-color-secondary);
   background-color: var(--background-color);
 }
@@ -33,6 +32,10 @@ img,
 svg {
   display: block;
   max-width: 100%;
+}
+
+ul {
+  list-style: none;
 }
 
 a {
@@ -52,12 +55,4 @@ a:hover path {
 .container {
   width: min(128rem, calc(100% - 6.4rem));
   margin-inline: auto;
-}
-
-@media (max-width: 600px) {
-  .container {
-    width: min(128rem, calc(100% - 4rem));
-    flex-direction: column;
-    row-gap: 1.4rem;
-  }
 }

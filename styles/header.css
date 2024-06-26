@@ -1,0 +1,51 @@
+header {
+  padding-block: 3.2rem;
+  background-color: var(--surface-color);
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+
+#profile {
+  flex-shrink: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+  max-width: 58rem;
+}
+
+#profile > div {
+  flex: 1 1 24rem;
+}
+
+#profile h1 {
+  margin-bottom: 0.8rem;
+  font: var(--heading);
+  color: var(--text-color-primary);
+}
+
+#profile p {
+  font: var(--paragraph-md);
+}
+
+#info {
+  width: min(28rem, 100%);
+}
+
+#info ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+#info ul li {
+  display: flex;
+  gap: 0.8rem;
+  font: var(--paragraph-md);
+}
